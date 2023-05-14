@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
-
 * {
-    color: red;
     font-family: 'Lato', sans-serif;
+    padding: 0;                         /* Reset default styling - reset the padding and margin on everything by setting */
+    margin: 0;      /* padding and margin to 0. */
+    box-sizing: border-box;     /* I also prefer border-box as in my opinion it's esier to style with border-box.*/
+}
+
+h1, h2, h3, h4, h5, h6, span {  /* Put my own default styling on all the headings h1-h6 including the span. */
+    color: #242424;
+    text-align: center;
+    line-height: 1.25;
+}
+
+p {     /* Putting my own default styling to the paragraphs */
+    line-height: 1.5;
+    font-size: 16px;
 }
