@@ -8,31 +8,47 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <section id="about-me"></section>
-        <nav>
-            <div class="personal__logo">Maurizio Gasbarrone</div>
-            <ul class="nav__link--list">
-                <li>
-                    <a href="" class="
-                      nav__link--anchor
-                      link__hover-effect
-                      link__hover-effect--black
-                    ">Languages</a>
-                </li>
-                <li>
-                    <a href="" class="
-                      nav__link--anchor
-                      link__hover-effect
-                      link__hover-effect--black
-                    ">Projects</a>
-                </li>
-                <li>
-                    <a href="" class="
-                      nav__link--anchor
-                      nav__link--anchor-primary
-                    ">Contact</a>
-                </li>
-            </ul>
-        </nav>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Maurizio Gasbarrone</div>
+        <ul class="nav__link--list">
+          <li>
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Languages</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="flex-1">
+        <div class="about-me__info row"></div>
+        <div class="about-me__info--container">
+          <figure class="about-me__picture--mask">
+            <img src="./assets/me.jpeg" class="about-me__picture" alt="Picture of Me!" />
+          </figure>
+          <h1 class="about-me__info--title">
+            Hey! I'm <span class="text--purple">Maurizio Gasbarrone</span> 👋
+          </h1>
+          <p class="about-me__info--para">
+            I'm a <strong class="text--purple">frontend software engineer</strong> with a strong passion for building
+            responsive and performant web applications with great user
+            experiences that positively impacts the world.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
